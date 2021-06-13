@@ -1,0 +1,970 @@
+
+p {
+    color:whitesmoke;
+    background-color:grey;
+}
+
+p {
+    color:whitesmoke;
+    font-size:130%;
+}
+
+
+h1 {
+    font-size:50px;
+}
+
+#intro p {
+    /* recueda que despues del indentificador se coloca la etiqueta por ejemplo p */
+    color: red;
+    background-color: white;
+}
+
+.first {font-size:200%;}
+
+#test .first em{
+    color: green;
+    background-color: white;
+    }
+
+    p.serif {
+
+        font-family: "Times New Roman", Times, serif;
+        
+        }
+        
+        p.sansserif {
+        
+        font-family: Helvetica, Arial, sans-serif;
+        
+        }
+        
+        p.monospace {
+        
+        font-family: "Courier New", Courier, monospace;
+        
+        }
+        
+        p.cursive {
+        
+        font-family: Florence, cursive; }
+        
+        p.fantasy {
+        
+        font-family: Blippo, fantasy;
+        }
+        p.small {
+            font-size: small;
+        }
+
+        p.italic{
+            font-style: italic;
+        }
+
+        p.light{
+            font-weight: lighter;
+        }
+        p.bold{
+            font-weight: bold;
+        }
+        p.bolder{
+            font-weight: bolder;
+        }
+        p.thicker{
+            font-weight: 900;
+        }
+        p,small{
+            font-variant: small-caps;
+        }
+        
+        p.patata{
+            color:greenyellow;
+        }
+
+        p.lulu{
+            color: #fff;
+        }
+
+        p.center{
+            text-align: center;
+        }
+
+        p.right{
+            text-align: right;
+        }
+
+        td.top{
+            vertical-align: top;
+        }
+
+        td.middle{
+            vertical-align: middle;
+        }
+
+        td.bottom{
+            vertical-align: bottom;
+        }
+
+
+        span.sub{
+            vertical-align: sub;
+        }
+
+        span.super{
+            vertical-align: super;
+        }
+
+        span.pixel{
+            vertical-align: -10px;
+        }
+
+        .main{
+            height: 150px;
+            width: 400px;
+            color: whitesmoke;
+            background-color: indigo;
+            display: inline-table;
+        }
+
+        .parrafo{
+            display: table-cell;
+            vertical-align: middle;
+        }
+        p.none{
+            text-decoration: none;
+        }
+
+        p.inherit{
+            text-decoration: inherit;
+        }
+
+        p.overline{
+            text-decoration: overline;
+        }
+
+        p.underline{
+            text-decoration: underline;
+        }
+
+        p.line-through{
+            text-decoration: line-through;
+        }
+
+        p {
+            text-indent: 60px;
+        }
+
+        h1{
+            color:darkmagenta;
+            font-size: 30pt;
+            text-shadow:5px 2px 4px grey;
+
+        }
+
+        h2{
+            font-size: 20pt;
+            text-shadow: rgb(42, 216, 216) -1px -2px 0.5em;
+        }
+
+        p.capitalize{
+            text-transform: capitalize;
+        }
+
+        p.uppercase{
+            text-transform: uppercase;
+        }
+        p.lowercase{
+            text-transform: lowercase;
+        }
+
+        p.normal{
+            letter-spacing: normal;
+        }
+
+        p.positive{
+            letter-spacing: 4px;
+        }
+
+        p.negative{
+            letter-spacing: -1.5px;
+        }
+
+        p.normal{
+            word-spacing: normal;
+        }
+        p.px{
+            word-spacing: 30px;
+        }
+        p.positive{
+            word-spacing: 20px;
+        }
+
+        p.negative{
+            word-spacing: -5px;
+        }
+
+      /*   p{
+            white-space: nowrap;
+        }*/
+
+        p.pre{
+            white-space: pre;
+        }
+
+        p.preline{
+            white-space: pre-line;
+        }
+
+        p.prewrap{
+            white-space: pre-wrap;
+        }
+
+        p{
+            padding: 10px;
+            border:5px solid greenyellow;
+        }
+
+        p.first{
+            padding: 10px;
+            border-style: solid;
+            border-width: 2px;
+            border-color: #ad42ad;
+        }
+
+        p.second {
+            padding: 10px;
+            border-style: solid;
+            border-width: 5px;
+            border-color: rgb(75, 182, 176);
+        }
+
+        p.third{
+            padding: 10px;
+            border-style: solid;
+            border-width: 2px;
+            border-color: cyan;
+        }
+
+        p.none {
+            border-style: none;
+        }
+        
+        p.dotted {
+            border-style: dotted;
+        }
+
+        p.dashed {
+            border-style: dashed;
+        }
+        p.double{
+            border-style: double;
+        }
+
+        p.groove{
+            border-style: groove;
+        }
+
+        p.ridge{
+            border-style: ridge;
+        }
+
+        p.inset{
+            border-style: inset;
+        }
+
+        p.outset{
+            border-style: outset;
+        }
+
+        p.hidden{
+            border-style: hidden;
+        }
+
+        /*div {
+            border: 5px solid cyan;
+            width: 90px;
+            height: 90px;
+        }
+
+        div {
+            border: 5px solid green;
+            width: 100px;
+            height: 90px;
+        } gracias a este codigo la mayotia del texto obtuvo un borde*/
+
+        p.first {
+            border: 5px solid green;
+            min-height: 100px;
+        }
+
+        p.second{
+            border: 5px solid goldenrod;
+            max-width: 100px;
+        }
+
+        body{
+            background-color: rgb(0, 100, 130);
+        }
+
+        body{
+            background-image: url("https://i.ytimg.com/vi/u5rY4e2ew8Q/maxresdefault.jpg");
+            background-color: #e9e9e9;
+        }
+
+        #qq9{
+            padding: 30px;
+            background-image: url("https://i.pinimg.com/originals/da/b8/e4/dab8e46a4279a254e0a722a06b1f9b9b.jpg");
+            color: white;
+        }
+
+        #dogue{
+            background-image: url("https://steamuserimages-a.akamaihd.net/ugc/1814365766212573958/04B7867DCE7F7DC885EF9D2B31FCDC9EF2D03443/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+            background-repeat: repeat-x;
+            width: 90%;
+            height: 70%;
+        }
+
+        #dogue2{
+            background-image: url("https://steamuserimages-a.akamaihd.net/ugc/1814365766212573958/04B7867DCE7F7DC885EF9D2B31FCDC9EF2D03443/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+            background-repeat: repeat-y;
+            width: 66%;
+            height: 150%;
+        }
+
+        #kk{
+            background-image: url("https://wc.wallpaperuse.com/wallp/31-316992_s.jpg");
+            background-repeat: inherit;
+            margin-top: 100px;
+            padding: 40px;
+            width: 70%;
+            height: 88%;
+        }
+
+        #pp{
+            background-image: url("https://i.pinimg.com/originals/e6/4d/2f/e64d2f640b07a61f3dbbc1431abe3190.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            width: 90%;
+            height: 88%;
+        }
+
+        #nn{
+            background-image: url("https://www.hoydinero.com/__export/1612140380381/sites/elimparcial/img/2021/01/31/dogecoin.jpg_423682103.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            width: 90%;
+            height: 88%;
+        }
+
+        ol.lower-alpha{
+            list-style-type: lower-alpha;
+            color:whitesmoke;
+    background-color:grey;
+        }
+
+        ul.circle{
+            list-style-type: circle;
+            color:whitesmoke;
+    background-color:grey;
+        }
+
+        ul.square{
+            list-style-type: square;
+            color:whitesmoke;
+    background-color:grey;
+        }
+        ul{
+            list-style-image: url("https://cdn.icon-icons.com/icons2/914/PNG/128/Instagram_Color_icon-icons.com_71811.png");
+            list-style-position: inside;
+            color:whitesmoke;
+    background-color:grey;
+            
+        }
+
+        ul{
+            list-style: square outside none;
+        }
+
+        ul{
+            list-style-type: circle;
+            list-style-position: outside;
+            list-style-image: none;
+        }
+        table{
+            border-collapse: separate;
+            border-spacing: 20px 40px;
+            color:whitesmoke;
+    background-color:rgb(100, 63, 63);
+        }
+
+        caption{
+            caption-side: top;
+        }
+        table{
+            border-collapse: separate;
+            empty-cells: hide;
+        }
+
+        table{
+            border-collapse: separate;
+            width: 100%;
+            border: 1px solid grey;
+        }
+        td{
+            border: 1px solid grey;
+        }
+        table.auto{
+            table-layout: auto;
+        }
+        table.fixed{
+            table-layout: fixed;
+        }
+
+        a:hover{
+            color: red;
+        }
+
+        a:link{
+            text-decoration: none;
+        }
+
+        #hh{
+            color: whitesmoke;
+            background-color: grey;
+        }
+        span{
+            display: block;
+            color: whitesmoke;
+            background-color: grey;
+        }
+        /*p{
+            display: inline;
+        } provoco un fallo*/
+
+        #uu{
+            display: none;
+        }
+
+        div.hidden{
+            visibility: hidden;
+        }
+
+        p.position_fixed{
+            position: fixed;
+            top: 30px;
+            right: 5px;
+            color: rgb(214, 134, 134);
+        }
+
+        #zz{
+            background: green;
+            color: honeydew;
+            position: relative;
+            top: 150px;
+            left: 50px;
+        }
+        img{
+            float: right;
+            width: 8%;
+            height: 8%;
+            margin-left: 10px;
+        }
+
+        .floating{
+            float: right;          
+        }
+
+        .clearing{
+            clear:both;
+        }
+        
+        /*div{
+            width: 150px;
+            height: 150px;
+            background-color: lightblue;
+            float: left;
+        }*/
+        #xx{
+            width: 150px;
+            height: 150px;
+            background-color: lightblue;
+            float: left;
+        }
+        #xx{
+            width: 150px;
+            height: 150px;
+            background-color: lightblue;
+            float: left;
+            overflow: hidden;
+        }
+
+        .blue{
+            background-color: #8EC4D0;
+            margin-bottom: 15px;
+            width: 120px;
+            height: 120px;
+            color: #fff;
+        }
+
+        .red {
+            background-color: #FF4D4D;
+            position: relative;
+            width: 120px;
+            height: 120px;
+            color: #fff;
+            margin-top: -50px;
+            margin-left: 50px;
+        }
+        .blue{
+            z-index: 3;
+            position: relative;
+        }
+        .red{
+            z-index: 2;
+            position: relative;
+        }
+
+        #webkit{
+            border-radius: 0 0 24px 24px;
+            background-color: rgb(42, 216, 216);
+            color:black;
+            border: none;            
+        }
+        #circulo{
+            width: 200px;
+            height: 200px; border-radius: 100px;
+            background-color: green;
+            color: whitesmoke;
+        }
+
+        #sombra{
+            width: 300px;
+            height: 100px;
+            background-color: #9ACD32;
+            box-shadow: 10PX 10PX #888888;
+        }
+
+        #sombra2{      
+            width: 300px;
+            height: 100px;
+            background-color: #8d250c;      
+            box-shadow: 10PX 10px 5PX 5px #888888;
+        }
+        #sombra3{      
+            width: 300px;
+            height: 100px;
+            background-color: #8f24af;      
+            box-shadow: -10PX -10px 5PX -5px #888888;
+        }
+
+        #sombra4{      
+            width: 300px;
+            height: 100px;
+            background-color: #e28ec9;      
+            box-shadow: inset 10PX 10px 5PX #888888;
+        }
+        #sombra5{      
+            width: 300px;
+            height: 100px;
+            background-color: #911e6e;      
+            box-shadow: 
+            inset 10PX 10px 5PX #888888,
+            inset -10PX -10px 5PX #888888;
+        }
+
+        #sombra6{      
+            width: 300px;
+            height: 100px;
+            background-color: #5bdfa1;      
+            box-shadow: 0 0 10px 4px #FF6347,
+            0 0 10PX 30PX #FFDAB9,
+            30PX 0 20PX 30PX #B0E0E6            
+        }
+        body{
+            background-image: url("https://i.ytimg.com/vi/u5rY4e2ew8Q/maxresdefault.jpg");
+            
+        }
+        nav{
+            padding: 50px 0;
+            min-width: 500px;
+        }
+        nav ul{
+            background: linear-gradient(90deg),
+            rgb(255, 255, 255, 0) 0%,
+            rgb(255, 255, 255, 0.2) 25%,
+            rgb(255, 255, 255, 0.2) 75%,
+            rgb(255, 255, 255, 0) 100%;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+            inset 0 0 1px rgba(255, 255, 255, 0.6)
+        }
+
+        nav ul li{
+            display: inline-block;
+        }
+
+        nav ul li a{
+            padding: 10px;
+            color: #ffffff;
+            font-size: 18px;
+            font-family: Arial;
+            text-decoration: none;
+            display: block;            
+        }
+        h4{
+            text-shadow: 5px 10px 2px #93968f,
+            -3px 6px 5px #58d1e3;
+            color:whitesmoke;
+    background-color:grey;
+        }
+
+        #parent p:first-child{
+            color: green;
+            text-decoration: underline;
+        }
+        ::first-line{
+            color: #ffffff
+        }
+        /*::before{
+            content: url("https://depor.com/resizer/lMnBCnJ9c1GTjnj9SVL8hlQArjs=/1200x800/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/HEDDEGQREZEK5LXEDFZQHKNPWM.jpg");
+        }*/
+
+        #df{
+            width: 210px;
+            height: 100px;
+            border: 1px solid #000000;
+            word-wrap: normal;
+        }
+        @font-face {
+            font-family: Delicious; 
+            src: url('Delicious-Roman.otf'); 
+          } 
+          @font-face { 
+            font-family: Delicious; 
+            font-weight: bold; 
+            src: url('Delicious-Bold.otf'); 
+          }
+          h5{
+             font-family: Delicious, sans-serif; 
+          }
+          @font-face { 
+            font-family: Delicious; 
+            src: url('Delicious-Roman.ttf');
+            src: url('Delicious-Roman.eot?#iefix'); 
+         }
+
+         #leccion1{
+             float: left;
+             width: 300px;
+             height: 100px;
+             margin: 4px;
+             color: #fff;
+             background: -webkit-linear-gradient(DeepSkyBlue, black);
+         }
+         #leccion2{
+            float: left;
+            width: 300px;
+            height: 100px;
+            margin: 4px;
+            color: #fff;
+            background: -webkit-linear-gradient(Blue, yellow, green, pink, white);
+        }
+
+        #leccion3{
+            float: left;
+            width: 300px;
+            height: 100px;
+            margin: 4px;
+            color: #fff;
+            background: -webkit-linear-gradient(left, Blue, green, white);
+        }
+
+        #leccion4{
+            float: left;
+            width: 300px;
+            height: 100px;
+            margin: 4px;
+            color: #fff;
+            background: -webkit-linear-gradient(bottom, Blue, green, white);
+        }
+
+        #leccion5{
+            float: left;
+            width: 300px;
+            height: 100px;
+            margin: 4px;
+            color: #fff;
+            background: -webkit-linear-gradient(bottom, Blue, green, white);
+        }
+
+        #leccion6{
+            float: left;
+            width: 300px;
+            height: 100px;
+            margin: 4px;
+            color: #fff;
+            background: -webkit-linear-gradient(1000deg, Blue, green, white);
+        }
+        #leccion7{
+            float: left;
+            width: 300px;
+            height: 100px;
+            margin: 4px;
+            color: #fff;
+            background: -webkit-repeating-linear-gradient(Blue, green, 20px);
+        }
+         
+        #leccion8{            
+            height: 150px;
+            width: 200px; 
+            color:#FFF;
+            background: -webkit-radial-gradient(green, yellow, blue);
+        }
+        #leccion9{
+            height: 150px;
+            width: 200px;
+            color: #fff;
+            background: -webkit-radial-gradient(circle,green,yellow,blue);
+        }
+        
+        #leccion10{            
+            height: 150px;
+            width: 200px; 
+            color:#FFF;
+            background: -webkit-radial-gradient(top left, green, yellow, blue);
+        }
+        #leccion11{
+            height: 150px;
+            width: 200px;
+            color: #fff;
+            background: -webkit-radial-gradient(green 5% yellow 15% blue 60%);
+        }
+        #leccion12{
+            height: 150px;
+            width: 200px;
+            color: #fff;
+            background: -webkit-radial-gradient(circle, green 40%,yellow 50%,blue 70%);
+        }
+
+        #leccion13{
+            height: 150px;
+    width: 200px; 
+   border: 1px solid #000;
+    background: url("https://www.tonica.la/__export/1594398614447/sites/debate/img/2020/07/10/las-primeras-temporadas-de-naruto-gratis-en-microsoft-store.jpg_1902800913.jpg") no-repeat 50% 50%;
+    background-size: 100px 100px;
+        } 
+        #leccion14{
+            border:2px dotted rgb(41, 182, 59);
+     padding: 20px;
+     background: LightBlue;
+     background-clip: content-box;}
+     #leccion15{
+        background-image: url("https://www.tonica.la/__export/1594398614447/sites/debate/img/2020/07/10/las-primeras-temporadas-de-naruto-gratis-en-microsoft-store.jpg_1902800913.jpg");
+     background-clip: content-box;
+ }
+
+ #leccion16{
+    width: 400px;
+     height: 300px;
+     background-image: url("https://www.tonica.la/__export/1594398614447/sites/debate/img/2020/07/10/las-primeras-temporadas-de-naruto-gratis-en-microsoft-store.jpg_1902800913.jpg"); 
+     background-position: right bottom, left top;
+     background-repeat: no-repeat;
+ }
+
+#leccion17{
+    width: 400px;
+    height: 300px;
+    background-image: url("https://www.tonica.la/__export/1594398614447/sites/debate/img/2020/07/10/las-primeras-temporadas-de-naruto-gratis-en-microsoft-store.jpg_1902800913.jpg"),
+    url("https://i.pinimg.com/474x/5f/55/46/5f5546fac3be210cf7659d6c899f6d8a.jpg");
+    background-position:right top, left top;
+    background-repeat:no-repeat;}
+
+    #img1{
+        opacity: 1;
+    }
+    #img2{
+       opacity: 0.5;
+   }
+   #img3{
+       opacity: 0.25;
+   }
+
+   #leccion18{
+    width: 50px;
+    height: 50px;
+    background: #32cd32;
+    transition: width 3s;
+   }
+
+   #leccion18{
+    width: 250px;
+}
+
+#leccion19{
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+    background-color: #32CD32;}
+
+    #leccion19{        
+            width: 200px;
+            height: 100px;
+            margin-top: 30px;
+            background-color: #32cd32;
+            transform: rotate(10deg);}
+    #leccion19{        
+        width: 200px;
+        height: 100px;
+        margin-top: 30px;
+        background-color: #32cd32;
+        transform: rotate(-10deg);}
+        #leccion20{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid black;
+}
+#leccion20{
+    padding: 50px;
+    position: absolute;
+    background-color: #8bc34a;
+    border: 1px solid white;
+    transform: rotate(15deg);
+    transform-origin: 25% 75%;
+}                
+
+#leccion21{
+    padding: 50px;
+    position: absolute;
+    background-color: #32cd32;
+    transform: translate(100px, 50px);
+}
+/*transform: skew(30deg);*/
+
+#leccion22{    
+        width: 200px; 
+        height: 100px;
+        background-color:#8BC34A; 
+        transform: scale(0.7,0.7);
+        color:white;
+     }
+     #leccion22{
+         margin: 60px;
+         width: 200px;
+         height: 100px;
+         background-color:#8bc34a;
+         transform: scale(1.5,1.5); 
+         color:white;
+     }
+     /* transform: rotate(45deg) translate(100px) */
+
+     #leccion23{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation-name: colorchange;
+        animation-duration: 1s;
+    }
+    @keyframes colorchange {
+        0%{background-color: red;}
+        50%{background-color: green;}
+        100%{background-color: blue;}
+    }
+
+    #leccion24{
+        transform: rotatex(150deg);
+        width: 50%;
+        height: 50%;
+    }
+    #leccion24{
+        transform: rotatey(150deg);
+        width: 50%;
+        height: 50%;
+    }
+    #leccion24{
+       transform: rotatez(150deg);
+       width: 50%;
+        height: 50%;
+    }
+
+    
+    #leccion24{
+     transform: translate(29px)
+     translateY(5em)
+     translateZ(-13px); 
+     width: 50%;
+     height: 50%;
+ }
+ #leccion25{
+    transform: translate3d(-20px,4em,10px);
+    width: 50%;
+        height: 50%;
+ }
+
+ #leccion25{
+    perspective: 100px;
+    width: 50%;
+        height: 50%;
+}
+#leccion25{
+    transform: rotateX(45deg);
+    width: 50%;
+        height: 50%;
+}
+
+#leccion26{
+    filter: sepia(100%);
+    width: 50%;
+    height: 50%;}
+
+    #leccion27{
+        filter: saturate(2.5%);
+        width: 50%;
+        height: 50%;}
+
+        #leccion28{
+            filter: hue-rotate(180deg);
+            width: 50%;
+            height: 50%;}
+
+            #leccion29{
+                filter: invert(70%);
+                width: 50%;
+                height: 50%;}
+
+                #leccion30{
+                    filter: opacity(70%);
+                    width: 50%;
+                    height: 50%;}
+
+                    #leccion31{
+                        filter: brightness(50%);
+                        width: 50%;                        
+                        height: 50%;}
+
+                        #leccion32{
+                            filter: contrast(140%);
+                            width: 50%;                            
+                            height: 50%;}
+
+                            #leccion33{
+                                filter: blur(5px);
+                                width: 50%;                            
+                                height: 50%;}
+
+                                #leccion34{
+                                    filter: blur(5px) hue-rotate(180deg);
+                                    width: 50%;                            
+                                    height: 50%;}
+
+                                    #leccion35{
+                                        filter: saturate(30%) drop-shadow(5px 9px 2px gray) blur(1px);
+                                        width: 50%;
+                                        height: 50%;}
+
+                                        #leccion26{
+                                            filter: brightness(150%) sepia(100%);
+                                            width: 50%;
+                                            height: 50%;}
+                        
